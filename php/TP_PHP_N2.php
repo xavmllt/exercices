@@ -18,6 +18,7 @@
             echo 'Les variables qui ont un nom valide sont : $mavar, $var5, $_mavar, $_5var, $__élément1. <br><br><br>';
 
 
+
         // Exercice 2 :
 
             echo 'Exercice 2 : <br><br>';
