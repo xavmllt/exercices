@@ -162,6 +162,25 @@
     };
     echo $x_.' est multiple de '.$nbre.' : Résultat obtenu en '.$compt.' coups';
 
+    echo '<br><br><br>';
+
+
+    # Exercie 8
+    echo 'Exercice 8 <br><br>';
+
+    // rechercher le PGCD de deux nombre entiers
+    function pgcd($a, $b){
+        if($a <= 0 || $b <= 0){
+            return ('Veuillez entrer deux arguments');
+        while($b > 0){
+            $r = $a % $b;
+            $a = $b;
+            $b = $r;
+        }
+        return $a;
+        } 
+    }
+    echo pgcd(105, 10);
     ?>
 </body>
 </html>
